@@ -185,4 +185,6 @@
     <!-- Enable doze powersaving -->
     <bool name="config_enableAutoPowerModes">true</bool>
 
+   <!-- Set operating voltage  -->
+    <integer name="config_bluetooth_operating_voltage_mv">3300</integer>
 </resources>
