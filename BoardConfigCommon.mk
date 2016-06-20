@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-VENDOR_PATH := device/cyanogen/msm8939-common
+VENDOR_PATH := device/yu/msm8939-common
 
 TARGET_SPECIFIC_HEADER_PATH := $(VENDOR_PATH)/include
 
@@ -138,4 +138,4 @@ WIFI_DRIVER_FW_PATH_STA := "sta"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
--include vendor/cyanogen/msm8939-common/BoardConfigVendor.mk
+-include vendor/yu/msm8939-common/BoardConfigVendor.mk
