@@ -107,12 +107,6 @@ TARGET_LDPRELOAD := libNimsWrap.so
 endif
 BOARD_USES_QCOM_HARDWARE := true
 
-# Recovery
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_cm
-
-# Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := $(VENDOR_PATH)
-
 # RIL
 TARGET_RIL_VARIANT := caf
 
